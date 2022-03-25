@@ -1,0 +1,14 @@
+a = input()
+
+
+def summarize(s):
+    x = 10
+    while x > 9:
+        x = 0
+        for i in str(s):
+            x = x + int(i)
+        s = x
+    return s
+
+
+print(summarize(a))
